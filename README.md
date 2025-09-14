@@ -40,8 +40,15 @@ python unlearn.py --exp experiment \
   --filter_layer False \
   --seed 0
 ## Evaluation
-### ID Scores
-python evaluate_id.py --exp experiment
-### FID Scores
+
+1. **ID Scores**
+
+   ```bash
+   python evaluate_id.py --exp experiment
+2. **FID Scores**
+
+   ```bash
+   python evaluate_fid.py --exp experiment
+
 python evaluate_fid.py --exp experiment
 
