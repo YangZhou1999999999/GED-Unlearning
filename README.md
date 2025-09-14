@@ -51,4 +51,3 @@ python unlearn.py --exp experiment \
 
    ```bash
    python evaluate_fid.py --exp experiment
-```
