@@ -43,9 +43,9 @@ conda activate ged
 pip install torch torchvision
 pip install lpips facenet-pytorch pandas tqdm click
 ```
+---
 
-
-##🚀 Running Unlearning
+## 🚀 Running Unlearning
 ```bash
 python unlearn.py --exp experiment \
   --inversion goae \
@@ -78,17 +78,17 @@ python unlearn.py --exp experiment \
   --filter_layer False \
   --seed 0
 ```
+---
 
-
-##📊 Evaluation
+## 📊 Evaluation
 ```bash
 1️⃣ ID Scores
 python evaluate_id.py --exp experiment
 2️⃣ FID Scores
 python evaluate_fid.py --exp experiment
+```
 ---
 
-##📈 Results
-✅ Effective identity removal
-✅ Better image quality than baselines
-✅ ~44% FID improvement
+## 📈 Results
+- ✅ Better image quality than baselines
+- ✅ ~44% FID improvement
